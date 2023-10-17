@@ -1,3 +1,5 @@
+const tools = require('./tools.js');
+
 const btnInfoElem = document.querySelector('.btnInfo');
 const messageElem = document.querySelector('.message');
 
