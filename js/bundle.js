@@ -5,7 +5,7 @@ const btnInfoElem = document.querySelector('.btnInfo');
 const messageElem = document.querySelector('.message');
 
 btnInfoElem.addEventListener('click', () => {
-	messageElem.innerText = tools.sentencize('the button has been clicked222');
+	messageElem.innerText = tools.sentencize('the button has been clicked');
 });	
 },{"./tools.js":2}],2:[function(require,module,exports){
 exports.sentencize = (text) => {
